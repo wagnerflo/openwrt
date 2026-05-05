@@ -1,0 +1,146 @@
+CONFIG_TARGET_ipq40xx=y
+CONFIG_TARGET_ipq40xx_generic=y
+CONFIG_TARGET_ipq40xx_generic_DEVICE_avm_fritzbox-7530=y
+CONFIG_DEVEL=y
+CONFIG_BUSYBOX_CUSTOM=y
+# CONFIG_BUSYBOX_CONFIG_LESS is not set
+# CONFIG_BUSYBOX_CONFIG_NTPD is not set
+# CONFIG_BUSYBOX_CONFIG_PS is not set
+CONFIG_BUSYBOX_CONFIG_PSTREE=y
+# CONFIG_BUSYBOX_CONFIG_TOP is not set
+CONFIG_CCACHE=y
+# CONFIG_DOWNLOAD_CHECK_CERTIFICATE is not set
+# CONFIG_DROPBEAR_LEGACY_COMPAT is not set
+CONFIG_FWKNOPD_NFQ_CAPTURE=y
+CONFIG_NEED_BPF_TOOLCHAIN=y
+CONFIG_OPENSSL_ENGINE=y
+CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM=y
+CONFIG_OPENSSL_WITH_ASM=y
+CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+CONFIG_OPENSSL_WITH_CMS=y
+CONFIG_OPENSSL_WITH_DEPRECATED=y
+CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+CONFIG_OPENSSL_WITH_PSK=y
+CONFIG_OPENSSL_WITH_SRP=y
+CONFIG_OPENSSL_WITH_TLS13=y
+# CONFIG_PACKAGE_apk-mbedtls is not set
+# CONFIG_PACKAGE_ath10k-firmware-qca4019-ct is not set
+CONFIG_PACKAGE_ath10k-firmware-qca4019-ct-htt=y
+CONFIG_PACKAGE_chrony=y
+# CONFIG_PACKAGE_dnsmasq is not set
+CONFIG_PACKAGE_fwknopd=y
+CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_iptables-mod-nfqueue=y
+CONFIG_PACKAGE_iptables-nft=y
+CONFIG_PACKAGE_kmod-ifb=y
+CONFIG_PACKAGE_kmod-ipt-core=y
+CONFIG_PACKAGE_kmod-ipt-nfqueue=y
+CONFIG_PACKAGE_kmod-nf-ipt=y
+CONFIG_PACKAGE_kmod-nfnetlink-queue=y
+CONFIG_PACKAGE_kmod-nft-compat=y
+CONFIG_PACKAGE_kmod-sched-bpf=y
+CONFIG_PACKAGE_kmod-sched-cake=y
+CONFIG_PACKAGE_kmod-sched-core=y
+CONFIG_PACKAGE_less=y
+CONFIG_PACKAGE_libatomic=y
+CONFIG_PACKAGE_libbpf=y
+CONFIG_PACKAGE_libcap=y
+CONFIG_PACKAGE_libcap-bin=y
+CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
+CONFIG_PACKAGE_libelf=y
+CONFIG_PACKAGE_libevent2=y
+CONFIG_PACKAGE_libevent2-core=y
+CONFIG_PACKAGE_libexpat=y
+CONFIG_PACKAGE_libfko=y
+CONFIG_PACKAGE_libiptext=y
+CONFIG_PACKAGE_libiptext-nft=y
+CONFIG_PACKAGE_libiptext6=y
+# CONFIG_PACKAGE_libmbedtls is not set
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libnetfilter-queue=y
+CONFIG_PACKAGE_libnfnetlink=y
+CONFIG_PACKAGE_libopenssl=y
+CONFIG_PACKAGE_libopenssl-conf=y
+CONFIG_PACKAGE_libopenssl-legacy=y
+# CONFIG_PACKAGE_libuclient is not set
+CONFIG_PACKAGE_libunbound=y
+CONFIG_PACKAGE_libunbound_libevent=y
+CONFIG_PACKAGE_libunbound_libpthread=y
+# CONFIG_PACKAGE_libustream-mbedtls is not set
+CONFIG_PACKAGE_libxtables=y
+CONFIG_PACKAGE_odhcpd=y
+# CONFIG_PACKAGE_odhcpd-ipv6only is not set
+CONFIG_PACKAGE_openssh-sftp-server=y
+# CONFIG_PACKAGE_openwrt-keyring is not set
+CONFIG_PACKAGE_procps-ng=y
+CONFIG_PACKAGE_procps-ng-ps=y
+CONFIG_PACKAGE_procps-ng-watch=y
+CONFIG_PACKAGE_qosify=y
+CONFIG_PACKAGE_shadow-common=y
+CONFIG_PACKAGE_shadow-groupadd=y
+CONFIG_PACKAGE_shadow-groupdel=y
+CONFIG_PACKAGE_shadow-groupmems=y
+CONFIG_PACKAGE_shadow-groupmod=y
+CONFIG_PACKAGE_shadow-su=y
+CONFIG_PACKAGE_shadow-useradd=y
+CONFIG_PACKAGE_shadow-userdel=y
+CONFIG_PACKAGE_shadow-usermod=y
+CONFIG_PACKAGE_shadow-utils=y
+CONFIG_PACKAGE_tc-tiny=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_tmux=y
+# CONFIG_PACKAGE_u-boot-fritz7520 is not set
+# CONFIG_PACKAGE_uclient-fetch is not set
+CONFIG_PACKAGE_unbound-anchor=y
+CONFIG_PACKAGE_unbound-control=y
+CONFIG_PACKAGE_unbound-daemon=y
+CONFIG_PACKAGE_unbound-host=y
+# CONFIG_PACKAGE_usign is not set
+CONFIG_PACKAGE_wireless-tools=y
+# CONFIG_PACKAGE_wpad-basic-mbedtls is not set
+CONFIG_PACKAGE_wpad-basic-openssl=y
+CONFIG_PACKAGE_xtables-nft=y
+CONFIG_PACKAGE_zoneinfo-africa=y
+CONFIG_PACKAGE_zoneinfo-all=y
+CONFIG_PACKAGE_zoneinfo-america=y
+CONFIG_PACKAGE_zoneinfo-asia=y
+CONFIG_PACKAGE_zoneinfo-atlantic=y
+CONFIG_PACKAGE_zoneinfo-australia-nz=y
+CONFIG_PACKAGE_zoneinfo-core=y
+CONFIG_PACKAGE_zoneinfo-europe=y
+CONFIG_PACKAGE_zoneinfo-indian=y
+CONFIG_PACKAGE_zoneinfo-pacific=y
+CONFIG_PACKAGE_zoneinfo-poles=y
+# CONFIG_SIGNATURE_CHECK is not set
+# CONFIG_SIGNED_PACKAGES is not set
+CONFIG_USE_LLVM_BUILD=y
+# CONFIG_HTOP_LMSENSORS is not set
+# CONFIG_OPENSSL_WITH_IDEA is not set
+# CONFIG_OPENSSL_WITH_MDC2 is not set
+# CONFIG_OPENSSL_WITH_SEED is not set
+# CONFIG_OPENSSL_WITH_WHIRLPOOL is not set
+# CONFIG_PACKAGE_libunbound_ipset is not set
+# CONFIG_PACKAGE_shadow-chage is not set
+# CONFIG_PACKAGE_shadow-chfn is not set
+# CONFIG_PACKAGE_shadow-chgpasswd is not set
+# CONFIG_PACKAGE_shadow-chpasswd is not set
+# CONFIG_PACKAGE_shadow-chsh is not set
+# CONFIG_PACKAGE_shadow-expiry is not set
+# CONFIG_PACKAGE_shadow-faillog is not set
+# CONFIG_PACKAGE_shadow-gpasswd is not set
+# CONFIG_PACKAGE_shadow-grpck is not set
+# CONFIG_PACKAGE_shadow-grpconv is not set
+# CONFIG_PACKAGE_shadow-grpunconv is not set
+# CONFIG_PACKAGE_shadow-login is not set
+# CONFIG_PACKAGE_shadow-logoutd is not set
+# CONFIG_PACKAGE_shadow-newgidmap is not set
+# CONFIG_PACKAGE_shadow-newgrp is not set
+# CONFIG_PACKAGE_shadow-newuidmap is not set
+# CONFIG_PACKAGE_shadow-newusers is not set
+# CONFIG_PACKAGE_shadow-nologin is not set
+# CONFIG_PACKAGE_shadow-passwd is not set
+# CONFIG_PACKAGE_shadow-pwck is not set
+# CONFIG_PACKAGE_shadow-pwconv is not set
+# CONFIG_PACKAGE_shadow-pwunconv is not set
+# CONFIG_PACKAGE_shadow-vipw is not set
+# CONFIG_shadow-all is not set
